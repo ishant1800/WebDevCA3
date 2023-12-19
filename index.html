@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Random Food Recipe</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <div id="title-container">
+    FoodyFinger
+  </div>
+
+  <div id="introduction">
+    Discover and explore a variety of delicious recipes. Whether you're looking for a random dish or searching for something specific, FoodyFinger has you covered!
+  </div>
+
+  <div id="search-container">
+    <input type="text" id="food-search" placeholder="Enter a food item">
+    <button id="search-button" onclick="searchFood()">Search</button>
+  </div>
+
+  <div id="search-results-container"></div>
+
+  <div id="container">
+    <div id="photo-container">
+      <img id="food-photo" alt="Random Food Photo">
+    </div>
+
+    <div id="recipe-container">
+      <h2 id="recipe-title">Recipe</h2>
+      <p id="recipe-text"></p>
+    </div>
+  </div>
+
+  <script src="scripts.js"></script>
+
+</body>
+
+</html>

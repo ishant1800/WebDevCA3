@@ -1,0 +1,114 @@
+#introduction {
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: white; 
+}
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f4;
+    flex-direction: column;
+    background-image: url("./pexels-photo-326333\ \(1\).jpeg");
+    background-size: cover;
+    background-position: center;
+}
+
+#title-container {
+    color: red;
+    font-weight: bold;
+    font-size: 48px; 
+    margin: 20px 0 10px;
+    align-self: flex-start; 
+    margin-left: 20px; 
+  }
+  
+  
+  #search-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  #food-search {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+  }
+  
+  #search-button {
+    padding: 10px;
+    background-color: hsl(210, 58%, 52%);
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  #search-results-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  
+  .search-result {
+    width: 100px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 0.8);
+    overflow: hidden;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .search-result img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px 8px 0 0;
+  }
+  
+  .search-result-text {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .search-result-text span {
+    font-weight: bold;
+    display: block;
+    margin-top: 5px;
+  }
+  
+  #container {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 0.8);
+    overflow: hidden;
+    border-radius: 8px;
+  }
+  
+  #photo-container {
+    flex: 1;
+    overflow: hidden;
+    border-radius: 8px 0 0 8px;
+  }
+  
+  #food-photo {
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+  }
+  
+  #recipe-container {
+    flex: 1;
+    padding: 20px;
+    text-align: left;
+  }
+  
